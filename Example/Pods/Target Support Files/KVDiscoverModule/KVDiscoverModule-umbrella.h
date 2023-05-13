@@ -10,7 +10,6 @@
 #endif
 #endif
 
-#import "KVDiscoverModule.h"
 #import "KVDiscoverServiceModule.h"
 #import "KVDiscoverServiceProtocol.h"
 #import "KVDiscoverViewController.h"

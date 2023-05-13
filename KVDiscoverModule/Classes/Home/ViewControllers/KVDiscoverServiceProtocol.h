@@ -6,7 +6,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "BHServiceProtocol.h"
+#import <BeeHive/BHServiceProtocol.h>
+//#import "BHServiceProtocol.h"
 
 
 NS_ASSUME_NONNULL_BEGIN
