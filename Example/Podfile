@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'KVDiscoverModule_Example' do
+  pod 'KVDiscoverModule', :path => '../'
+
+  target 'KVDiscoverModule_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

@@ -1,0 +1,6 @@
+framework module KVDiscoverModule {
+  umbrella header "KVDiscoverModule-umbrella.h"
+
+  export *
+  module * { export * }
+}

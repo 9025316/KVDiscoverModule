@@ -1,0 +1,43 @@
+PODS:
+  - BeeHive (1.6.0)
+  - DKNightVersion (2.4.3):
+    - DKNightVersion/Core (= 2.4.3)
+    - DKNightVersion/CoreAnimation (= 2.4.3)
+    - DKNightVersion/UIKit (= 2.4.3)
+  - DKNightVersion/Core (2.4.3):
+    - DKNightVersion/Core/DeallocBlockExecutor (= 2.4.3)
+    - DKNightVersion/Core/extobjc (= 2.4.3)
+  - DKNightVersion/Core/DeallocBlockExecutor (2.4.3)
+  - DKNightVersion/Core/extobjc (2.4.3)
+  - DKNightVersion/CoreAnimation (2.4.3):
+    - DKNightVersion/Core
+  - DKNightVersion/UIKit (2.4.3):
+    - DKNightVersion/Core
+  - KVDiscoverModule (0.1.0):
+    - BeeHive (~> 1.6.0)
+    - DKNightVersion
+    - Masonry
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - KVDiscoverModule (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - BeeHive
+    - DKNightVersion
+    - Masonry
+
+EXTERNAL SOURCES:
+  KVDiscoverModule:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BeeHive: 64c01ddec33b9ef8813701e075eeb732327d0f75
+  DKNightVersion: eaa80cc4014b4bae7d4b535fd87ecc6a3c2767b3
+  KVDiscoverModule: b0fa81c54d5de46a55efbc8dcb3d430b248830cd
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: 57c5ab34109d547246e054b12c8cd0916881ab67
+
+COCOAPODS: 1.11.0
